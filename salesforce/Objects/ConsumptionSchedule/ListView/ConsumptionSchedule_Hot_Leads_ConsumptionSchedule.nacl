@@ -1,0 +1,12 @@
+salesforce.ListView ConsumptionSchedule_Hot_Leads_ConsumptionSchedule {
+  fullName = "ConsumptionSchedule.Hot_Leads_ConsumptionSchedule"
+  filterScope = "Queue"
+  label = "Hot Leads"
+  queue = "Hot_Leads"
+  sharedTo = {
+    allInternalUsers = ""
+  }
+  _parent = [
+    salesforce.ConsumptionSchedule,
+  ]
+}

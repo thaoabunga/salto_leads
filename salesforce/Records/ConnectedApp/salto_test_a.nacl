@@ -1,0 +1,27 @@
+salesforce.ConnectedApp salto_test_a {
+  fullName = "salto_test_a"
+  contactEmail = "elthao@gmail.com"
+  iconUrl = "https://login.salesforce.com/logos/Standard/lead/icon.png"
+  label = "salto leads"
+  logoUrl = "https://login.salesforce.com/logos/Standard/lead/logo.svg"
+  oauthConfig = {
+    callbackUrl = "https://login.salesforce.com/services/oauth2/success"
+    consumerKey = "3MVG9p1Q1BCe9GmDaO_DwRdNCiLyb7TuBwHcc0MhUoQeIH3XRvMVEPac80BaYPuUdZ8ZFRnTZT5.vbhXltprO"
+    isAdminApproved = false
+    isConsumerSecretOptional = false
+    isIntrospectAllTokens = false
+    scopes = [
+      "Basic",
+      "Api",
+      "Web",
+      "Full",
+      "RefreshToken",
+      "CustomPermissions",
+      "Lightning",
+    ]
+  }
+  oauthPolicy = {
+    ipRelaxation = "ENFORCE"
+    refreshTokenPolicy = "infinite"
+  }
+}

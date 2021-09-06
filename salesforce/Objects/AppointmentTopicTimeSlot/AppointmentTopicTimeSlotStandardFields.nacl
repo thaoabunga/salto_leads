@@ -1,0 +1,21 @@
+type salesforce.AppointmentTopicTimeSlot {
+  string AppointmentTopicTimeSlotKey {
+  }
+  string Name {
+  }
+  salesforce.Lookup OperatingHoursId {
+    apiName = "AppointmentTopicTimeSlot.OperatingHoursId"
+  }
+  salesforce.Lookup TimeSlotId {
+    apiName = "AppointmentTopicTimeSlot.TimeSlotId"
+    trackHistory = "false"
+  }
+  salesforce.Lookup WorkTypeGroupId {
+    apiName = "AppointmentTopicTimeSlot.WorkTypeGroupId"
+    trackHistory = "false"
+  }
+  salesforce.Lookup WorkTypeId {
+    apiName = "AppointmentTopicTimeSlot.WorkTypeId"
+    trackHistory = "false"
+  }
+}

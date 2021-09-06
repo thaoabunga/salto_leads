@@ -1,0 +1,6 @@
+salesforce.SharingRules Hot_Lead__c {
+  fullName = "Hot_Lead__c"
+  _parent = [
+    salesforce.Hot_Lead__c,
+  ]
+}

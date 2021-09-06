@@ -1,0 +1,31 @@
+salesforce.Queue Cold_Leads {
+  fullName = "Cold_Leads"
+  doesSendEmailToMembers = false
+  name = "Cold Leads"
+  queueMembers = {
+    users = {
+      user = [
+        "integration@00d5f000001cb2leac.com",
+        "insightssecurity@00d5f000001cb2leac.com",
+        "elthao@gmail.com",
+      ]
+    }
+  }
+  queueSobject = [
+    {
+      sobjectType = "Cold_Lead__c"
+    },
+    {
+      sobjectType = "CommSubscriptionConsent"
+    },
+    {
+      sobjectType = "ConsumptionSchedule"
+    },
+    {
+      sobjectType = "ContactRequest"
+    },
+    {
+      sobjectType = "Location"
+    },
+  ]
+}

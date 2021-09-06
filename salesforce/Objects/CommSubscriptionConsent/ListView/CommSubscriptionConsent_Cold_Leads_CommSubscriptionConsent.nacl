@@ -1,0 +1,12 @@
+salesforce.ListView CommSubscriptionConsent_Cold_Leads_CommSubscriptionConsent {
+  fullName = "CommSubscriptionConsent.Cold_Leads_CommSubscriptionConsent"
+  filterScope = "Queue"
+  label = "Cold Leads"
+  queue = "Cold_Leads"
+  sharedTo = {
+    allInternalUsers = ""
+  }
+  _parent = [
+    salesforce.CommSubscriptionConsent,
+  ]
+}

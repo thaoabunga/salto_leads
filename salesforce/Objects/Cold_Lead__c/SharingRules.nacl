@@ -1,0 +1,6 @@
+salesforce.SharingRules Cold_Lead__c {
+  fullName = "Cold_Lead__c"
+  _parent = [
+    salesforce.Cold_Lead__c,
+  ]
+}

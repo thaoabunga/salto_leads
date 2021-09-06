@@ -1,0 +1,5 @@
+workspace {
+  uid = "b866d4e5-0b4a-4ba1-b254-8c7e35b151f2"
+  name = "salto_try2"
+  staleStateThresholdMinutes = undefined
+}

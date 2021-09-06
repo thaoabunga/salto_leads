@@ -1,0 +1,6 @@
+salesforce.UserProvisioningConfig X0H45f000000H0AJ {
+  fullName = "X0H45f000000H0AJ"
+  connectedApp = "salto_test_a"
+  enabled = true
+  masterLabel = "X0H45f000000H0AJ"
+}

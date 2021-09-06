@@ -1,0 +1,12 @@
+salesforce.ListView ContactRequest_Cold_Leads_ContactRequest {
+  fullName = "ContactRequest.Cold_Leads_ContactRequest"
+  filterScope = "Queue"
+  label = "Cold Leads"
+  queue = "Cold_Leads"
+  sharedTo = {
+    allInternalUsers = ""
+  }
+  _parent = [
+    salesforce.ContactRequest,
+  ]
+}

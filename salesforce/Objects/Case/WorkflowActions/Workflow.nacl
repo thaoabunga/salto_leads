@@ -1,0 +1,9 @@
+salesforce.Workflow Case {
+  fullName = "Case"
+  fieldUpdates = [
+    salesforce.WorkflowFieldUpdate.instance.Case_ChangePriorityToHigh@v,
+  ]
+  _parent = [
+    salesforce.Case,
+  ]
+}

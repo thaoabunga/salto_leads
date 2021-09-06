@@ -1,0 +1,24 @@
+salesforce.ConnectedApp leads {
+  fullName = "leads"
+  contactEmail = "thaozers@gmail.com"
+  contactPhone = "14152250938"
+  iconUrl = "https://login.salesforce.com/logos/Standard/campaign/icon.png"
+  label = "leads"
+  logoUrl = "https://login.salesforce.com/logos/Standard/campaign/logo.svg"
+  oauthConfig = {
+    callbackUrl = "https://login.salesforce.com/"
+    consumerKey = "3MVG9p1Q1BCe9GmDaO_DwRdNCiNd5j2AfJ6V_kKWAlTV4GJzXXDbsivScLG5rxpjb_xN5MgluNU27e9gJEvfK"
+    isAdminApproved = false
+    isConsumerSecretOptional = false
+    isIntrospectAllTokens = false
+    scopes = [
+      "Api",
+      "Web",
+      "RefreshToken",
+    ]
+  }
+  oauthPolicy = {
+    ipRelaxation = "ENFORCE"
+    refreshTokenPolicy = "infinite"
+  }
+}

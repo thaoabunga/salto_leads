@@ -1,0 +1,82 @@
+type salesforce.QueueSobject {
+  annotations {
+    serviceid metadataType {
+    }
+    boolean hasMetaFile {
+    }
+    string folderType {
+    }
+    string folderContentType {
+    }
+    string suffix {
+    }
+    string dirName {
+    }
+  }
+  string sobjectType {
+    _restriction = {
+      enforce_value = false
+      values = [
+        "AlternativePaymentMethod",
+        "AuthorizationForm",
+        "AuthorizationFormConsent",
+        "AuthorizationFormDataUse",
+        "Case",
+        "Cold_Lead__c",
+        "CommSubscription",
+        "CommSubscriptionChannelType",
+        "CommSubscriptionConsent",
+        "ConsumptionSchedule",
+        "ContactPointAddress",
+        "ContactPointConsent",
+        "ContactPointEmail",
+        "ContactPointPhone",
+        "ContactPointTypeConsent",
+        "ContactRequest",
+        "CreditMemo",
+        "DataUseLegalBasis",
+        "DataUsePurpose",
+        "EngagementChannelType",
+        "FinanceBalanceSnapshot",
+        "FinanceTransaction",
+        "Goal",
+        "Hot_Lead__c",
+        "Image",
+        "Invoice",
+        "Lead",
+        "LegalEntity",
+        "LocWaitlistMsgTemplate",
+        "Location",
+        "LocationWaitlist",
+        "LocationWaitlistedParty",
+        "Macro",
+        "MessagingEndUser",
+        "MessagingSession",
+        "Metric",
+        "Order",
+        "PartyConsent",
+        "ProcessException",
+        "QuickText",
+        "ReturnOrder",
+        "Scorecard",
+        "ServiceAppointment",
+        "ServiceContract",
+        "ServiceResource",
+        "ServiceTerritory",
+        "Task",
+        "UserProvisioningRequest",
+        "WorkCoaching",
+        "WorkFeedback",
+        "WorkFeedbackQuestion",
+        "WorkFeedbackQuestionSet",
+        "WorkFeedbackRequest",
+        "WorkFeedbackTemplate",
+        "WorkOrder",
+        "WorkPerformanceCycle",
+        "WorkType",
+        "WorkTypeGroup",
+      ]
+    }
+  }
+  metadataType = "QueueSobject"
+}
