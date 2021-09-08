@@ -1,0 +1,6 @@
+salesforce.SharingRules Score__c {
+  fullName = "Score__c"
+  _parent = [
+    salesforce.Score__c,
+  ]
+}

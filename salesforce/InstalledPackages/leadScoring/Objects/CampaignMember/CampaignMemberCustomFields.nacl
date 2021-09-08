@@ -1,0 +1,15 @@
+type salesforce.CampaignMember {
+  salesforce.Number leadScoring__Campaign_Score__c {
+    apiName = "CampaignMember.leadScoring__Campaign_Score__c"
+    label = "Campaign Score"
+    precision = 18
+    scale = 0
+    createable = true
+    updateable = true
+    unique = false
+    queryable = true
+    deprecated = false
+    description = "This field stores the Campaign Score contribution for this campaign member record.  If deleted, this value is used to decrement lead score.  If the campaign member is edited, this value will change if rule criteria are now met, or no longer met."
+    externalId = false
+  }
+}

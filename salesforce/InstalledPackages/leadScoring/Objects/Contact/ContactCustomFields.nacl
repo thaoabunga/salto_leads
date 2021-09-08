@@ -1,0 +1,45 @@
+type salesforce.Contact {
+  salesforce.Number leadScoring__Campaign_Score__c {
+    apiName = "Contact.leadScoring__Campaign_Score__c"
+    label = "Campaign Score"
+    precision = 18
+    scale = 0
+    createable = true
+    updateable = true
+    unique = false
+    queryable = true
+    deprecated = false
+    description = "Value from the converted lead"
+    externalId = false
+    trackFeedHistory = false
+  }
+  salesforce.Number leadScoring__Lead_Score__c {
+    apiName = "Contact.leadScoring__Lead_Score__c"
+    label = "Lead Score"
+    precision = 18
+    scale = 0
+    createable = true
+    updateable = true
+    unique = false
+    queryable = true
+    deprecated = false
+    description = "Value from the converted lead"
+    externalId = false
+    trackFeedHistory = false
+  }
+  salesforce.FormulaNumber leadScoring__Total_Lead_Score__c {
+    apiName = "Contact.leadScoring__Total_Lead_Score__c"
+    label = "Total Lead Score"
+    precision = 18
+    scale = 0
+    formula = "leadScoring__Lead_Score__c + leadScoring__Campaign_Score__c"
+    createable = false
+    updateable = false
+    unique = false
+    queryable = true
+    deprecated = false
+    description = "Value from the converted lead"
+    externalId = false
+    formulaTreatBlanksAs = "BlankAsZero"
+  }
+}

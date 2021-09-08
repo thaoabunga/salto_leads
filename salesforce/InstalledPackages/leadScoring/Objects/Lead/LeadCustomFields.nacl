@@ -1,0 +1,60 @@
+type salesforce.Lead {
+  salesforce.Number leadScoring__Campaign_Score__c {
+    apiName = "Lead.leadScoring__Campaign_Score__c"
+    label = "Campaign Score"
+    precision = 18
+    scale = 0
+    inlineHelpText = "Sum of all the lead scoring rules from campaign member lead scoring rules"
+    createable = true
+    updateable = true
+    unique = false
+    queryable = true
+    deprecated = false
+    description = "Sum of all the lead scoring rules from campaign member lead scoring rules"
+    externalId = false
+    trackFeedHistory = false
+  }
+  salesforce.FormulaText leadScoring__Lead_Priority__c {
+    apiName = "Lead.leadScoring__Lead_Priority__c"
+    label = "Lead Priority"
+    formula = "if( leadScoring__Total_Lead_Score__c <30,\"C\",if(leadScoring__Total_Lead_Score__c <50, \"B\", \"A\"))"
+    createable = false
+    updateable = false
+    unique = false
+    caseSensitive = false
+    length = 1300
+    queryable = true
+    deprecated = false
+    externalId = false
+    formulaTreatBlanksAs = "BlankAsZero"
+  }
+  salesforce.Number leadScoring__Lead_Score__c {
+    apiName = "Lead.leadScoring__Lead_Score__c"
+    label = "Lead Score"
+    precision = 18
+    scale = 0
+    createable = true
+    updateable = true
+    unique = false
+    queryable = true
+    deprecated = false
+    externalId = false
+    trackFeedHistory = false
+  }
+  salesforce.FormulaNumber leadScoring__Total_Lead_Score__c {
+    apiName = "Lead.leadScoring__Total_Lead_Score__c"
+    label = "Total Lead Score"
+    precision = 18
+    scale = 0
+    formula = "leadScoring__Campaign_Score__c  +leadScoring__Lead_Score__c"
+    inlineHelpText = "Sum of Campaign Score and Lead Score"
+    createable = false
+    updateable = false
+    unique = false
+    queryable = true
+    deprecated = false
+    description = "Sum of Campaign Score and Lead Score"
+    externalId = false
+    formulaTreatBlanksAs = "BlankAsZero"
+  }
+}
