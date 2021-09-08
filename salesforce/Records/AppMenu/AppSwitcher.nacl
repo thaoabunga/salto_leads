@@ -89,5 +89,9 @@ salesforce.AppMenu AppSwitcher {
       name = salesforce.ConnectedApp.instance.leads
       type = "ConnectedApp"
     },
+    {
+      name = "leadScoring__Lead_Scoring"
+      type = "CustomApplication"
+    },
   ]
 }

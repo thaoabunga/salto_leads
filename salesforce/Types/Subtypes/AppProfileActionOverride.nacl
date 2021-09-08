@@ -99,6 +99,7 @@ type salesforce.AppProfileActionOverride {
         "ReturnOrderItemAdjustment",
         "ReturnOrderItemTax",
         "ReturnOrderLineItem",
+        "Score__c",
         "Scorecard",
         "ScorecardAssociation",
         "ScorecardMetric",
@@ -117,6 +118,7 @@ type salesforce.AppProfileActionOverride {
         "WorkOrderLineItem",
         "WorkType",
         "WorkTypeGroup",
+        "leadScoring__LeadScoringRule__c",
         "standard-home",
         "standard-mailapp",
       ]

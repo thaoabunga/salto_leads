@@ -1432,6 +1432,12 @@ type salesforce.MacroInstruction {
         isActive = true
       },
       {
+        fullName = "Tab.Score__c"
+        default = false
+        label = "Active Score Tab"
+        isActive = true
+      },
+      {
         fullName = "Tab.ServiceAppointment"
         default = false
         label = "Active Service Appointment Tab"
@@ -1513,6 +1519,12 @@ type salesforce.MacroInstruction {
         fullName = "Tab.WorkTypeGroupMember"
         default = false
         label = "Active Work Type Group Member Tab"
+        isActive = true
+      },
+      {
+        fullName = "Tab.leadScoring__LeadScoringRule__c"
+        default = false
+        label = "Active Lead Scoring Rule Tab"
         isActive = true
       },
     ]

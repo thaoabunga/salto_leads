@@ -100,6 +100,8 @@ type salesforce.ProcessException {
       salesforce.PaymentAuthorization,
       salesforce.Refund,
       salesforce.ReturnOrder,
+      salesforce.Score__c,
+      "leadScoring__LeadScoringRule__c",
     ]
     createable = true
     updateable = true

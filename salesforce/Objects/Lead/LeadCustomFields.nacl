@@ -86,4 +86,17 @@ type salesforce.Lead {
     externalId = false
     trackFeedHistory = false
   }
+
+  salesforce.Text saltoQuickStartField {
+     length = 32
+  apiName = "Lead.saltoQuickStartField__c"
+    label = "saltoQuickStartField"
+    createable = true
+    updateable = true
+    unique = false
+    caseSensitive = false
+    queryable = true
+    externalId = false
+    trackFeedHistory = false
+  }
 }

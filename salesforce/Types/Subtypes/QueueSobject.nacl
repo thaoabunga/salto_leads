@@ -58,6 +58,7 @@ type salesforce.QueueSobject {
         "ProcessException",
         "QuickText",
         "ReturnOrder",
+        "Score__c",
         "Scorecard",
         "ServiceAppointment",
         "ServiceContract",
@@ -75,6 +76,7 @@ type salesforce.QueueSobject {
         "WorkPerformanceCycle",
         "WorkType",
         "WorkTypeGroup",
+        "leadScoring__LeadScoringRule__c",
       ]
     }
   }

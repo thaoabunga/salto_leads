@@ -322,6 +322,12 @@ type salesforce.Macro {
         isActive = true
       },
       {
+        fullName = "leadScoring__LeadScoringRule__c"
+        default = false
+        label = "Lead Scoring Rule"
+        isActive = true
+      },
+      {
         fullName = "LegalEntity"
         default = false
         label = "Legal Entity"
@@ -475,6 +481,12 @@ type salesforce.Macro {
         fullName = "ReturnOrderLineItem"
         default = false
         label = "Return Order Line Item"
+        isActive = true
+      },
+      {
+        fullName = "Score__c"
+        default = false
+        label = "Score"
         isActive = true
       },
       {

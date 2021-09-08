@@ -98,6 +98,7 @@ type salesforce.RecordAction {
       salesforce.ResourcePreference,
       salesforce.ReturnOrder,
       salesforce.ReturnOrderLineItem,
+      salesforce.Score__c,
       salesforce.ServiceAppointment,
       salesforce.ServiceContract,
       salesforce.ServiceResource,
@@ -111,6 +112,7 @@ type salesforce.RecordAction {
       salesforce.WorkOrderLineItem,
       salesforce.WorkType,
       salesforce.WorkTypeGroup,
+      "leadScoring__LeadScoringRule__c",
     ]
     createable = true
     updateable = true

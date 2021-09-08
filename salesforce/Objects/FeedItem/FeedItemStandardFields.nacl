@@ -60,6 +60,7 @@ type salesforce.FeedItem {
       salesforce.ResourcePreference,
       salesforce.ReturnOrder,
       salesforce.ReturnOrderLineItem,
+      salesforce.Score__c,
       salesforce.ServiceAppointment,
       salesforce.ServiceContract,
       salesforce.ServiceResource,
@@ -80,6 +81,7 @@ type salesforce.FeedItem {
       salesforce.WorkType,
       salesforce.WorkTypeGroup,
       salesforce.WorkTypeGroupMember,
+      "leadScoring__LeadScoringRule__c",
     ]
     createable = true
     updateable = false

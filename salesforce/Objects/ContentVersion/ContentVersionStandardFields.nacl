@@ -411,6 +411,7 @@ type salesforce.ContentVersion {
       salesforce.ResourcePreference,
       salesforce.ReturnOrder,
       salesforce.ReturnOrderLineItem,
+      salesforce.Score__c,
       salesforce.ServiceAppointment,
       salesforce.ServiceContract,
       salesforce.ServiceResource,
@@ -431,6 +432,7 @@ type salesforce.ContentVersion {
       salesforce.WorkType,
       salesforce.WorkTypeGroup,
       salesforce.WorkTypeGroupMember,
+      "leadScoring__LeadScoringRule__c",
     ]
     createable = true
     updateable = false

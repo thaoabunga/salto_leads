@@ -1,6 +1,6 @@
 salesforce.Queue Hot_Leads {
   fullName = "Hot_Leads"
-  doesSendEmailToMembers = false
+  doesSendEmailToMembers = true
   name = "Hot Leads"
   queueMembers = {
     users = {
@@ -28,4 +28,5 @@ salesforce.Queue Hot_Leads {
       sobjectType = "Scorecard"
     },
   ]
+  email = "thaozers@gmail.com"
 }

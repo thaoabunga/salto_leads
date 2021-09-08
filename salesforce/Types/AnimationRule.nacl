@@ -60,9 +60,11 @@ type salesforce.AnimationRule {
         "Opportunity",
         "Order",
         "ProcessException",
+        "Score__c",
         "ServiceAppointment",
         "WorkOrder",
         "WorkOrderLineItem",
+        "leadScoring__LeadScoringRule__c",
       ]
     }
     foreignKeyDomain = [
@@ -98,6 +100,8 @@ type salesforce.AnimationRule {
         "Status",
         "Type",
         "UpsellOpportunity__c",
+        "leadScoring__Operator__c",
+        "leadScoring__Type__c",
       ]
     }
     foreignKeyDomain = [

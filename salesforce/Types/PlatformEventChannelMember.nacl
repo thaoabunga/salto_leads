@@ -93,6 +93,7 @@ type salesforce.PlatformEventChannelMember {
         "ResourceAbsenceChangeEvent",
         "ReturnOrderChangeEvent",
         "ReturnOrderLineItemChangeEvent",
+        "Score__ChangeEvent",
         "ServiceAppointmentChangeEvent",
         "ServiceContractChangeEvent",
         "ServiceResourceChangeEvent",
@@ -104,6 +105,7 @@ type salesforce.PlatformEventChannelMember {
         "WorkOrderChangeEvent",
         "WorkOrderLineItemChangeEvent",
         "WorkTypeChangeEvent",
+        "leadScoring__LeadScoringRule__ChangeEvent",
       ]
     }
     foreignKeyDomain = [

@@ -94,7 +94,9 @@ type salesforce.ContactRequest {
       salesforce.Cold_Lead__c,
       salesforce.Hot_Lead__c,
       salesforce.Opportunity,
+      salesforce.Score__c,
       salesforce.WorkOrder,
+      "leadScoring__LeadScoringRule__c",
     ]
     createable = true
     updateable = true

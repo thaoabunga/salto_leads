@@ -42,6 +42,7 @@ type salesforce.TopicAssignment {
       salesforce.ResourcePreference,
       salesforce.ReturnOrder,
       salesforce.ReturnOrderLineItem,
+      salesforce.Score__c,
       salesforce.ServiceAppointment,
       salesforce.ServiceResource,
       salesforce.ServiceResourceSkill,
@@ -51,6 +52,7 @@ type salesforce.TopicAssignment {
       salesforce.Task,
       salesforce.WorkOrder,
       salesforce.WorkOrderLineItem,
+      "leadScoring__LeadScoringRule__c",
     ]
     createable = true
     updateable = false

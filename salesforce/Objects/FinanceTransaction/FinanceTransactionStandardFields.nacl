@@ -99,6 +99,8 @@ type salesforce.FinanceTransaction {
       salesforce.PaymentLineInvoice,
       salesforce.Refund,
       salesforce.RefundLinePayment,
+      salesforce.Score__c,
+      "leadScoring__LeadScoringRule__c",
     ]
     inlineHelpText = "The financial object that was created or updated as a result of a customer action"
     createable = true
@@ -696,6 +698,8 @@ type salesforce.FinanceTransaction {
       salesforce.PaymentLineInvoice,
       salesforce.Refund,
       salesforce.RefundLinePayment,
+      salesforce.Score__c,
+      "leadScoring__LeadScoringRule__c",
     ]
     inlineHelpText = "Source entity for reference entities that have made allocations"
     createable = true
@@ -717,6 +721,8 @@ type salesforce.FinanceTransaction {
       salesforce.PaymentLineInvoice,
       salesforce.Refund,
       salesforce.RefundLinePayment,
+      salesforce.Score__c,
+      "leadScoring__LeadScoringRule__c",
     ]
     inlineHelpText = "Target entity for reference entities that have made allocations"
     createable = true
@@ -807,6 +813,8 @@ type salesforce.FinanceTransaction {
       salesforce.Cold_Lead__c,
       salesforce.Hot_Lead__c,
       salesforce.LegalEntity,
+      salesforce.Score__c,
+      "leadScoring__LeadScoringRule__c",
     ]
     inlineHelpText = "Legal entity associated with the finance transaction. This is an optional lookup that you can add to associate the finance transaction to GL rules for external ledger processing."
     createable = true
@@ -852,6 +860,8 @@ type salesforce.FinanceTransaction {
       salesforce.PaymentLineInvoice,
       salesforce.Refund,
       salesforce.RefundLinePayment,
+      salesforce.Score__c,
+      "leadScoring__LeadScoringRule__c",
     ]
     inlineHelpText = "The parent object of the reference entity"
     createable = true

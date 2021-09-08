@@ -49,6 +49,7 @@ type salesforce.Task {
       salesforce.ResourceAbsence,
       salesforce.ReturnOrder,
       salesforce.ReturnOrderLineItem,
+      salesforce.Score__c,
       salesforce.ServiceAppointment,
       salesforce.ServiceContract,
       salesforce.ServiceResource,

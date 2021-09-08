@@ -375,6 +375,12 @@ salesforce.SearchSettings {
       {
         enhancedLookupEnabled = false
         lookupAutoCompleteEnabled = false
+        name = salesforce.Score__c
+        resultsPerPageCount = 0
+      },
+      {
+        enhancedLookupEnabled = false
+        lookupAutoCompleteEnabled = false
         name = salesforce.ServiceContract
         resultsPerPageCount = 25
       },
@@ -400,6 +406,12 @@ salesforce.SearchSettings {
         enhancedLookupEnabled = false
         lookupAutoCompleteEnabled = false
         name = salesforce.WorkOrderLineItem
+        resultsPerPageCount = 25
+      },
+      {
+        enhancedLookupEnabled = false
+        lookupAutoCompleteEnabled = false
+        name = "leadScoring__LeadScoringRule__c"
         resultsPerPageCount = 25
       },
     ]

@@ -1,7 +1,7 @@
 salesforce.AssignmentRules Lead {
   assignmentRule = [
     {
-      fullName = "Standard"
+      fullName = "Score"
       active = true
       ruleEntry = [
         {
@@ -9,9 +9,14 @@ salesforce.AssignmentRules Lead {
           assignedToType = "User"
           criteriaItems = [
             {
-              field = "Lead.Country"
-              operation = "equals"
-              value = "US,USA,United States,United States of America"
+              field = salesforce.Lead.field.leadScoring__Total_Lead_Score__c
+              operation = "greaterThan"
+              value = "100"
+            },
+            {
+              field = salesforce.Lead.field.AnnualRevenue
+              operation = "greaterThan"
+              value = "500000"
             },
           ]
         },
@@ -20,9 +25,9 @@ salesforce.AssignmentRules Lead {
           assignedToType = "User"
           criteriaItems = [
             {
-              field = "Lead.Country"
-              operation = "notEqual"
-              value = "US,USA,United States,United States of America"
+              field = salesforce.Lead.field.leadScoring__Campaign_Score__c
+              operation = "greaterOrEqual"
+              value = "10"
             },
           ]
         },

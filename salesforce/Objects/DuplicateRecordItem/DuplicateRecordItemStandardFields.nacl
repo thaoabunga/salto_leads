@@ -95,6 +95,8 @@ type salesforce.DuplicateRecordItem {
       salesforce.Hot_Lead__c,
       salesforce.Individual,
       salesforce.Lead,
+      salesforce.Score__c,
+      "leadScoring__LeadScoringRule__c",
     ]
     createable = true
     updateable = true

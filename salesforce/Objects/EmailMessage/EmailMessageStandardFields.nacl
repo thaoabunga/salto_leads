@@ -330,6 +330,7 @@ type salesforce.EmailMessage {
       salesforce.ResourceAbsence,
       salesforce.ReturnOrder,
       salesforce.ReturnOrderLineItem,
+      salesforce.Score__c,
       salesforce.ServiceAppointment,
       salesforce.ServiceContract,
       salesforce.ServiceResource,
