@@ -88,7 +88,7 @@ type salesforce.Lead {
   }
 
   salesforce.Text saltoQuickStartField {
-     length = 32
+     length = 35
   apiName = "Lead.saltoQuickStartField__c"
     label = "saltoQuickStartField"
     createable = true
